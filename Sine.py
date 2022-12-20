@@ -8,7 +8,7 @@ def easeInOut (t,b,c,d):
 def easeOutIn (t,b,c,d):
     t/=(d/2)
     if (t<1):
-        return c/2*(math.sin(math.pi*t/2))+b;
+        return c/2*(math.sin(math.pi*t/2))+b
     else:
         t-=1
-        return -c/2*(math.cos(math.pi*t/2)-2)+b;
+        return -c/2*(math.cos(math.pi*t/2)-2)+b
