@@ -1,5 +1,6 @@
 import easing.Back
 import easing.Bounce
+import easing.Brachistochrone
 import easing.Circ
 import easing.Cubic
 import easing.Elastic
